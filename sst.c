@@ -245,7 +245,7 @@ static void makemoves(void) {
 				photon();
                 if (ididit) {
 #ifdef CLOAKING
-                    if (irhere && d.date >= ALGERON && !isviolreported && iscloaked) {
+                    if (irhere && d.date >= ALGERON && !isviolreported && iscloaked) {
                         prout("The Romulan ship discovers you are breaking the Treaty of Algeron!");
                         ncviol++;
                         isviolreported = TRUE;
